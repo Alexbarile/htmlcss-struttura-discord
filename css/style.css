@@ -49,7 +49,7 @@ li{
 .container{
     max-width: 100%;
     margin: 0 auto;
-    background-color: blue;
+    background-color: rgb(18, 18, 60);
 }
 
 .row{
@@ -57,13 +57,13 @@ li{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 400px;
 }
 
 .col-main{
-    width: 60%;
-    height: 500px;
-    background-color: red;
+    width: 50%;
+    height: 300px;
+    background-color: palevioletred;
  
 }
 
@@ -90,9 +90,58 @@ li{
 
 .col-small{
     width: 35%;
-    background-color: gray;
+    background-color: pink;
     height: 400px;
 }
 
 
 /* MAIN TERZA RIGA */
+
+
+.container-three{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.row-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 500px;
+}
+
+.col-big-inverse{
+    width: 65%;
+    background-color: lightskyblue;
+    height: 400px;
+}
+
+.col-small-inverse{
+    width: 35%;
+    background-color: pink;
+    height: 400px;
+}
+
+/* MAIN QUINTA RIGA */
+
+.container-five{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.row-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.col-main-five{
+    width: 55%;
+    height: 500px;
+    background-color: green;
+}
