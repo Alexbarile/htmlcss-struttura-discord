@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 header{
     background-color: aqua;
     width: 100%;
@@ -12,27 +14,85 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
-
 .logo{
-    
-    height: 40px;
-    background-color: red;
+    background-color: goldenrod;
 }
 
 .link{
     width: 45%;
-    height: 40px;
-    background-color: yellow;
+    background-color: goldenrod;
 }
-}
+
 .login{
-    
-    height: 40px;
-    background-color: black;
+    background-color: goldenrod;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    text-align: center;
+    height: 20px;
 
 }
 
+/* MAIN PRIMA RIGA */
 
+
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.col-main{
+    width: 60%;
+    height: 500px;
+    background-color: red;
+ 
+}
+
+/* MAIN SECONDA RIGA */
+
+.container-two{
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.row-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.col-big{
+    width: 65%;
+    background-color: lightskyblue;
+    height: 400px;
+}
+
+.col-small{
+    width: 35%;
+    background-color: gray;
+    height: 400px;
+}
+
+
+/* MAIN TERZA RIGA */
