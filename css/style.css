@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: aqua;
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.logo{
+    
+    height: 40px;
+    background-color: red;
+}
+
+.link{
+    width: 45%;
+    height: 40px;
+    background-color: yellow;
+}
+}
+.login{
+    
+    height: 40px;
+    background-color: black;
+
+}
+
+
