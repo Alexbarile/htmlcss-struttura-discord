@@ -10,26 +10,38 @@
 
 header{
     background-color: aqua;
-    width: 100%;
-    margin: 0 auto;
     height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo{
-    background-color: goldenrod;
+.container{
+    width: 75%;
+    margin: 0 auto;
+
 }
 
-.link{
-    width: 45%;
-    background-color: goldenrod;
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.login{
+.col-25{
+    height: 40px;
+    width: 25%;
     background-color: goldenrod;
+    border: 1px solid black;
 }
+
+.col-50{
+    height: 40px;
+    width: 50%;
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+
 
 ul{
     display: flex;
@@ -47,23 +59,23 @@ li{
 /* MAIN PRIMA RIGA */
 
 
-.container{
-    max-width: 100%;
-    margin: 0 auto;
-    background-color: rgb(18, 18, 60);
+.bg-blue{
+    background-color: rgb(30, 30, 79);
 }
 
-.row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 400px;
+.container-sm{
+    width: 60%;
+    margin: 0 auto;
 }
+
+.padding-20{
+    padding: 20px;
+}
+
 
 .col-main{
-    width: 50%;
-    height: 300px;
+    width: 60%;
+    height: 350px;
     background-color: palevioletred;
 
 }
@@ -71,19 +83,6 @@ li{
 
 /* MAIN SECONDA RIGA */
 
-
-.container-two{
-    max-width: 55%;
-    margin: 0 auto;
-}
-
-.row-two{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 500px;
-}
 
 .col-big{
     width: 65%;
@@ -100,53 +99,19 @@ li{
 
 /* MAIN TERZA RIGA */
 
-
-.container-three{
-    max-width: 100%;
-    margin: 0 auto;
+.bg-gray{
     background-color: lightgray;
 }
-
-.row-three{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55%;
-    height: 500px;
-}
-
-.col-big-inverse{
-    width: 65%;
-    background-color: lightskyblue;
-    height: 400px;
-}
-
-.col-small-inverse{
-    width: 35%;
-    background-color: pink;
-    height: 400px;
-}
-
 
 /* MAIN QUINTA RIGA */
 
-
-.container-five{
-    max-width: 100%;
-    margin: 0 auto;
+.bg-lightgray{
     background-color: lightgray;
 }
 
-.row-five{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-}
 
 .col-main-five{
-    width: 55%;
+    width: 100%;
     height: 500px;
     background-color: green;
 }
@@ -155,16 +120,10 @@ li{
 /* footer */
 
 
-.footer{
+footer{
     background-color: rgba(0, 0, 0, 0.875);
 }
 
-.footer-row{
-    display: flex;
-    justify-content: center;
-    width: 55%;
-    margin-bottom: 40px;
-}
 
 .col-footer-main{
     height: 350px;
@@ -182,20 +141,25 @@ li{
     flex-grow: 1;
 }
 
-.hr{
+.hr-1{
     border: 0.5px solid white;
+    margin-top: 40px;
+   
+    width: 100%
 }
 
-.footer-row-end{
+.bg-beige{
     background-color: beige;
-    width: 55%;
-    margin: 0 auto;
+    
+}
+.row-footer{
+    width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: beige;
 }
-
 .logo-end{  
     background-color: gray;
     padding: 7px 10px 7px 10px;
